@@ -27,7 +27,7 @@ object B:
    ...
 ```
 
-Generally, a normal wildcard selector `_` brings all definitions other than givens or extensions into scope
+Generally, a normal wildcard selector `*` brings all definitions other than givens or extensions into scope
 whereas a `given` selector brings all givens (including those resulting from extensions) into scope.
 
 There are two main benefits arising from these rules:
